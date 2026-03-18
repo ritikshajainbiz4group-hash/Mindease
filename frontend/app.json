@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MindEase",
+    "slug": "mindease",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F0F4FF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mindease.app"
+    },
+    "android": {
+      "package": "com.mindease.app",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow MindEase to access your microphone for voice conversations."
+        }
+      ]
+    ],
+    "extra": {
+      "appEnv": "development",
+      "apiBaseUrl": "http://172.16.0.1:8000",
+      "googleWebClientId": ""
+    }
+  }
+}

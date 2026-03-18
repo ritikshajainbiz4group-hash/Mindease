@@ -1,0 +1,52 @@
+const en = {
+  common: {
+    appName: 'MindEase',
+    tagline: 'Your calm companion, always here',
+    loading: 'Loading...',
+    error: 'Something went wrong',
+    retry: 'Try again',
+    cancel: 'Cancel',
+    ok: 'OK',
+  },
+  auth: {
+    login: {
+      title: 'Welcome back',
+      subtitle: 'Sign in to continue your journey',
+      emailPlaceholder: 'you@example.com',
+      passwordPlaceholder: 'Enter your password',
+      forgotPassword: 'Forgot password?',
+      signInButton: 'Sign In',
+      googleButton: 'Sign in with Google',
+      noAccount: "Don't have an account?",
+      signUpLink: 'Sign Up',
+    },
+    signup: {
+      title: 'Create account',
+      subtitle: 'Join thousands finding peace of mind',
+      namePlaceholder: 'Jane Doe',
+      emailPlaceholder: 'you@example.com',
+      passwordPlaceholder: 'Create a strong password',
+      confirmPasswordPlaceholder: 'Repeat your password',
+      signUpButton: 'Create Account',
+      hasAccount: 'Already have an account?',
+      signInLink: 'Sign In',
+      terms: 'By signing up, you agree to our',
+      termsLink: 'Terms of Service',
+      privacyLink: 'Privacy Policy',
+    },
+    errors: {
+      emailRequired: 'Email is required',
+      emailInvalid: 'Enter a valid email address',
+      passwordRequired: 'Password is required',
+      passwordTooShort: 'Password must be at least 6 characters',
+      nameRequired: 'Full name is required',
+      nameTooShort: 'Name must be at least 2 characters',
+      confirmPasswordRequired: 'Please confirm your password',
+      passwordMismatch: 'Passwords do not match',
+      loginFailed: 'Login failed. Please try again.',
+      signupFailed: 'Sign up failed. Please try again.',
+    },
+  },
+};
+
+export default en;
